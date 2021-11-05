@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0b646d"
+    android:id="@+id/parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello from prince!"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="40sp" />
+
+
+    <TextView
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:background="#ecebbd"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Click to change text color"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/changeBackgroundButton"
+        android:layout_above="@id/button"
+        android:background="#402294"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to change bsckground color"
+        android:textSize="25sp"
+        android:layout_margin="20dp"
+        />
+
+
+</RelativeLayout>
