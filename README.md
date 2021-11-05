@@ -5,7 +5,7 @@
 
 
 
-<img src=https://i.imgur.com/7yybSMh.gif width=200><br>
+<img src=https://im7.ezgif.com/tmp/ezgif-7-b9d51276df9c.gif ><br>
 
 just simple hello world app. has a button and can change color.
 
