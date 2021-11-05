@@ -2,6 +2,11 @@
 
 ### App description 
 
+
+
+
+<img src=https://i.imgur.com/7yybSMh.gif width=200><br>
+
 just simple hello world app. has a button and can change color.
 
 ### Required User Stories
